@@ -1,0 +1,16 @@
+[
+    {
+      "nome": "Banana",
+      "preco": 2.5,
+      "descricao": "Uma deliciosa banana",
+      "imagem": "banana.jpg"
+    },
+    {
+      "nome": "Maçã",
+      "preco": 3.0,
+      "descricao": "Uma suculenta maçã",
+      "imagem": "maca.jpg"
+    },
+    // mais frutas...
+  ]
+  
