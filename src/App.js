@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import frutasData from './data/frutas.json';
+import Navigation from './components/Navigation';
+import SalesList from './components/SalesList';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <h1>Minha Empresa de Frutas</h1>
+      <Navigation frutas={frutasData} />
+      <SalesList salesData={salesData} />
     </div>
   );
-}
+};
 
 export default App;

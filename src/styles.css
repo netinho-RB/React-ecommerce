@@ -1,0 +1,40 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Adicione mais estilos globais aqui */
+  /* Header.css */
+
+.header {
+    background-color: #4CAF50;
+    padding: 1rem;
+    color: #fff;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header nav li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  .header nav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header nav li a:hover {
+    text-decoration: underline;
+  }
+  
